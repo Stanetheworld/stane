@@ -34,9 +34,9 @@ local supportedgames = {
 if supportedgames[gameid] then
     if string.find(gameName:lower(), "dig it") then
         if id > 6 then --good executor
-            loadstring(game:HttpGet("https://stane.pages.dev/assets/scripts/digit/WaveLepre.lua"))()
+            loadstring(game:HttpGet("https://stane.pages.dev/assets/scripts/digit/wlepre.lua"))()
         elseif id < 6 then --shitty executor
-            loadstring(game:HttpGet("https://stane.pages.dev/assets/scripts/digit/SolaraLepre.lua"))()
+            loadstring(game:HttpGet("https://stane.pages.dev/assets/scripts/digit/slepre.lua"))()
         end
     else
         print("Loading Infinite Yield")
